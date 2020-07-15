@@ -1,5 +1,5 @@
 {
-  "name": "@nju33/TEMPLATE_NODE_LIBRARY",
+  "name": "@nju33/webdriverio-commands",
   "version": "0.0.0",
   "source": "src/index.ts",
   "main": "index.js",
@@ -61,11 +61,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/nju33/TEMPLATE_NODE_LIBRARY.git"
+    "url": "ssh://git@github.com/nju33/webdriverio-commands.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "author": "nju33 <nju33.ki@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^6.2.0"
+  }
 }
